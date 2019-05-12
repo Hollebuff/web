@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="keyWords" name="博客">
+    <meta content="description" name="首页、详情页、登录功能">
+    <title>技术栈：原生Js+node+express+mysql+sass+ejs</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<!-- 仿照这个博客：https://www.huanggr.cn/ -->
+<!-- 解决思路：请求页home页面，expresss查询数据,ejs渲染页面，返回页面 -->
+<!-- 详情页：点击获取文章ID, 拿id去查询，再渲染页面 -->
+
+<!-- 目前差安装mysql数据库、ejs模板、 等等要实现这个过程-->
+
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="warp clearfix">
+        <!-- logo -->
+        <div class="logo">
+            <a href=""><img src="../images/logo.png" alt=""></a>
+            <span class="logo-text">web前端开发博客<br/>专注web前端开发</span>
+        </div>
+
+        <!-- 导航 -->
+        <div class="nav">
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">前端特效</a></li>
+                <li><a href="">HTML5CSS3教程</a></li>
+                <li><a href="">JS教程</a></li>
+                <li><a href="">VUE-CLI教程</a></li>
+                <li><a href="">Es6教程</a></li>
+                <li><a href="">关于博客</a></li>
+                <li class="seach"><a href=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    </header>
+
+    <!-- 内容 -->
+    <div class="main warp clearfix">
+
+        <div class="content">
+            <div class="hot">
+                <a href=""><h3>element-ui如何自定义表格颜色<i></i></h3></a>
+                <span>element-ui如何自定义表格颜色
+element-ui是前端最炙手可热的ui框架之一，配合vue脚手架进行开发，功能十分的强大，接下来介绍一下，在element-ui中表格如何实现自定义颜色，和以往的h...</span>
+            </div>
+            <div class="items">
+                <ul>
+                    <li class="item clearfix">
+                        <a href="">
+                            <div class="article-img"><img src="../images/test.jpg" alt=""></div>
+                            <div class="article-main">
+                                <h3>
+                                    <div class="title-tag">
+                                        <a href="">javascript</a>
+                                        <i></i>
+                                    </div>
+                                    element-ui如何自定义表格颜色
+                                </h3>
+                                <div class="article-tag">
+                                    <span>web前端开发</span>
+                                    <span>WEB前端技术</span>
+                                    <span>国瑞个人博客</span>
+                                </div>
+
+                                <p class="article">
+            element-ui如何自定义表格颜色element-ui是前端最炙手可热的ui框架之一，配合vue脚手架进行开发，
+            功能十分的强大，接下来介绍一下，在element-ui中表格如何...</p>
+                                <div class="article-info">
+                                    <div class="article-date">
+                                        <span>2019年5月12日</span>
+                                        <span>244</span>
+                                        <span>1条评论</span>
+                                        <span>20喜欢</span>
+                                    </div> 
+                                    <div class="more">阅读全文&gt;&gt;</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item clearfix">
+                        <a href="">
+                            <div class="article-img"><img src="../images/test.jpg" alt=""></div>
+                            <div class="article-main">
+                                <h3>element-ui如何自定义表格颜色</h3>
+                                <div class="article-tag">
+                                    <span>web前端开发</span>
+                                    <span>WEB前端技术</span>
+                                    <span>国瑞个人博客</span>
+                                </div>
+
+                                <p class="article">
+            element-ui如何自定义表格颜色element-ui是前端最炙手可热的ui框架之一，配合vue脚手架进行开发，
+            功能十分的强大，接下来介绍一下，在element-ui中表格如何...</p>
+                                <div class="article-info">
+                                    <div class="article-date">
+                                        <span>2019年5月12日</span>
+                                        <span>244</span>
+                                        <span>1条评论</span>
+                                        <span>20喜欢</span>
+                                    </div> 
+                                    <div class="more">阅读全文&gt;&gt;</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="siwder">
+            <div>
+                <p>博客简介</p>
+                <p>国瑞个人博客: https://www.huanggr.cn/，我们关注Web前端开发技术，
+                    web前端开发,移动前端开发，前端资讯，同时分享前端资源和工具等，期待你的参与,
+                </p>
+            </div>
+            <div>
+                <p>本站唯一QQ群</p>
+                <p><img src="" alt=""></p>
+                <p>本群为学习探讨群，主要和前端相关，欢迎广大前端（抱有学习目的均可）爱好者加入！广告请勿添加！</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+        <div class="warp footer">
+            <p>xxx版权</p>
+        </div>
+    </footer>
+</body>
+</html>
+
