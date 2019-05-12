@@ -1,0 +1,14 @@
+#mydiv{
+width:200px;
+height:80px;
+background-color:yellow;
+font-size:24px;
+text-align:center
+}
+
+.img{
+    height: 200px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}

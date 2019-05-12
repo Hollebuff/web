@@ -1,0 +1,5 @@
+1、server里面文件夹缺少express依赖包，剪切粘贴到 E:\webcase\reactcase\server文件夹里即可
+2、reactexpressdemo 除了server外所有文件，剪切粘贴到 E:\webcase\reactcase\fristreact文件即可
+
+
+3、或者重新安装依赖包：cnpm install  再   npm start 运行即可
