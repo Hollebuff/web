@@ -62,6 +62,7 @@ button{
     border-radius: 5px;
 }
 
+/* 评论 */
 .comment{
     padding: 20px 20px 50px;
     border-bottom: 1px solid #d4d4d4;
@@ -76,17 +77,26 @@ button{
     height: auto;
 }
 
-.comment-wrap{
-    height: auto;
-    width: 400px;
-    word-break: break-all;
-    word-wrap: break-word;
-    overflow: hidden;
-}
-
 .comment-content{
     float: left;
 }
-.comment-time{
+.comment-time-delete{
     float: right;
 }
+
+.comment-time{
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+.comment-delete{
+    display: inline-block;
+    margin-left: 4px;
+    width: 46px;
+    cursor: pointer;
+}
+
+
+
+
+

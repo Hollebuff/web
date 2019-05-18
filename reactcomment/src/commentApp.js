@@ -1,8 +1,8 @@
 /*
  * @Author: summer.yang 
  * @Date: 2019-05-17 21:56:53 
- * @Last Modified by: email: 763651741@qq.com
- * @Last Modified time: 2019-05-17 22:15:51
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2019-05-18 14:16:02
  */
 import React, { Component } from 'react';
 import CommentInput from './commentInput';
@@ -29,6 +29,15 @@ export default class CommentApp extends Component{
             })
         }
     }
+    handleDeleteComment(index){
+        console.log(index)
+        const comments = this.state.comments
+        comments.splice(index, 1)
+        this.setState({
+            comments
+        })
+        this._saveComment(comments)
+    }
 
     _saveComment(comments){
         localStorage.setItem('comments', JSON.stringify(comments))
@@ -52,7 +61,9 @@ export default class CommentApp extends Component{
         return(
             <div className='wrap'>
                 <CommentInput onSubmit = {this.handleSubmitCommet.bind(this)}/>
-                <CommentList comments = {this.state.comments}/>
+                <CommentList comments = {this.state.comments}
+                onDeleteComment = {this.handleDeleteComment.bind(this)}
+                />
             </div>
         )
     }

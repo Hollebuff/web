@@ -1,10 +1,9 @@
 /*
  * @Author: summer.yang 
  * @Date: 2019-05-17 21:56:44 
- * @Last Modified by: email: 763651741@qq.com
- * @Last Modified time: 2019-05-17 22:22:47
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2019-05-18 14:51:29
  */
-
 import React, { Component } from  'react';
 
 export default class CommentInput extends Component{
